@@ -1,6 +1,15 @@
 {
   "name": "tauri-boilerplate",
   "version": "0.0.1",
-  "main": "index.js",
-  "author": "Wangleng Tan"
+  "private": true,
+  "author": "Wangleng Tan",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack --serve"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.3.1",
+    "webpack": "^5.31.2",
+    "webpack-cli": "^4.6.0"
+  }
 }
