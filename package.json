@@ -5,11 +5,16 @@
   "author": "Wangleng Tan",
   "scripts": {
     "build": "webpack --config webpack.config.prod.js",
-    "dev": "webpack serve --config webpack.config.dev.js"
+    "dev": "webpack serve --config webpack.config.dev.js",
+    "lint": "eslint ./src --fix --ext .js,.ts,.tsx"
   },
   "devDependencies": {
     "@types/react-dom": "^17.0.3",
+    "@typescript-eslint/eslint-plugin": "^4.21.0",
+    "@typescript-eslint/parser": "^4.21.0",
     "css-loader": "^5.2.1",
+    "eslint": "^7.24.0",
+    "eslint-plugin-react": "^7.23.2",
     "html-webpack-plugin": "^5.3.1",
     "style-loader": "^2.0.0",
     "ts-loader": "^8.1.0",
